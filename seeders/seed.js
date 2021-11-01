@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const db = require("../models/workout")
 
-mongoose.connect('mongodb+srv://isaaclong:elco9377@cluster0.3d1gl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://isaaclong:elco9377@cluster0.3d1gl.mongodb.net/workoutsdb?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true,
