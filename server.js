@@ -18,7 +18,7 @@ app.set('views', path.join(__dirname, '/public'));
 
 app.use(routes)
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://isaaclong:elco9377@cluster0.3d1gl.mongodb.net/workoutsdb?retryWrites=true&w=majority", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI , { useNewUrlParser: true });
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
